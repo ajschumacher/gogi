@@ -6,14 +6,17 @@
   </head>
 
   <body>
+
     <div id="gog"></div>
+
     <script type="text/javascript">
-     var socket = new WebSocket("ws://localhost:8080/happiness");
+     var socket = new WebSocket("ws://localhost:4808/data");
      var div = document.getElementById("gog");
      socket.onmessage = function(event) {
        div.innerText = event.data;
      };
     </script>
+
   </body>
 
 </html>
