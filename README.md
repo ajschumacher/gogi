@@ -1,4 +1,8 @@
-gogi
+# gogi
+
+`gogi` is a [gog](https://github.com/ajschumacher/gog) data visualization frontend.
+
+The initial goal is for it to be a general scatterplot in the spirit of the grammar of graphics.
 
 
 ### License
