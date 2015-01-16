@@ -3,21 +3,12 @@
 
   <head>
     <title>gogi</title>
-    <script src="d3.min.js" charset="utf-8"></script>
   </head>
 
   <body>
-
     <div id="gog"></div>
-
-    <script type="text/javascript">
-     var socket = new WebSocket("ws://localhost:4808/data");
-     var div = document.getElementById("gog");
-     socket.onmessage = function(event) {
-       div.innerText = event.data;
-     };
-    </script>
-
+    <script src="d3.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
   </body>
 
 </html>
